@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body background="background.jpg">
+  <center>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card text-center">
+            <form onsubmit="event.preventDefault();" class="box">
+              <h1>Welcome</h1>
+              <p class="text-muted">Please enter your name to play the Ping Pong game.</p>
+              <input type="text" name="name" placeholder="Name" id="userinput">
+              <input type="button" value="Let's Play" onclick="redirect()">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </center>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
